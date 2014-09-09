@@ -2,13 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#74EEFD"
     tools:context="${relativePackage}.${activityClass}" >
-
-    <Button
-        android:id="@+id/subbutt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Subscribe" />
 
     <Button
         android:id="@+id/fributt"
@@ -17,6 +12,7 @@
         android:layout_alignBaseline="@+id/wedbutt"
         android:layout_alignBottom="@+id/wedbutt"
         android:layout_toLeftOf="@+id/satbutt"
+        android:textStyle="bold"
         android:text="@string/Friday" />
 
     <Button
@@ -26,6 +22,7 @@
         android:layout_alignBaseline="@+id/fributt"
         android:layout_alignBottom="@+id/fributt"
         android:layout_alignParentRight="true"
+        android:textStyle="bold"
         android:text="@string/Saturday" />
 
     <Button
@@ -34,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/subbutt"
+        android:textStyle="bold"
         android:text="@string/Sunday" />
 
     <Button
@@ -42,6 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/sunbutt"
+        android:textStyle="bold"
         android:text="@string/Monday" />
 
     <Button
@@ -50,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/monbutt"
+        android:textStyle="bold"
         android:text="@string/Tuesday" />
 
     <Button
@@ -58,6 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/tuebutt"
+        android:textStyle="bold"
         android:text="@string/Wednesday" />
 
     <Button
@@ -66,6 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/wedbutt"
+        android:textStyle="bold"
         android:text="@string/Thursday" />
 
     <Button
@@ -147,7 +149,6 @@
         android:layout_below="@+id/button4"
         android:layout_toLeftOf="@+id/button4"
         android:text="@string/date10" />
-
 
     <Button
         android:id="@+id/button12"
@@ -312,10 +313,32 @@
 
     <Button
         android:id="@+id/monthbutt"
-        android:layout_width="80dp"
-        android:layout_height="260dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/subbutt"
         android:text="@string/month"
-        android:textSize="40sp" />
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/subbutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sunbutt"
+        android:layout_alignBottom="@+id/sunbutt"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Subscribe"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/monthbutt"
+        android:text="2013"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

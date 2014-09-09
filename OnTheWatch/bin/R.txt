@@ -280,7 +280,7 @@ int id edit_query 0x7f050030
 int id end 0x7f050013
 int id expand_activities_button 0x7f050026
 int id expanded_menu 0x7f05002c
-int id fributt 0x7f05003d
+int id fributt 0x7f05003c
 int id home 0x7f050014
 int id homeAsUp 0x7f050005
 int id icon 0x7f05002a
@@ -297,7 +297,7 @@ int id normal 0x7f050000
 int id progress_circular 0x7f050018
 int id progress_horizontal 0x7f050019
 int id radio 0x7f05002f
-int id satbutt 0x7f05003f
+int id satbutt 0x7f05003e
 int id search_badge 0x7f050032
 int id search_bar 0x7f050031
 int id search_button 0x7f050033
@@ -313,9 +313,9 @@ int id showCustom 0x7f050007
 int id showHome 0x7f050004
 int id showTitle 0x7f050006
 int id split_action_bar 0x7f05001e
-int id subbutt 0x7f05003c
+int id subbutt 0x7f050040
 int id submit_area 0x7f050039
-int id sunbutt 0x7f050040
+int id sunbutt 0x7f05003f
 int id tabMode 0x7f050002
 int id thubutt 0x7f050043
 int id title 0x7f05002b
@@ -323,8 +323,9 @@ int id top_action_bar 0x7f050020
 int id tuebutt 0x7f050042
 int id up 0x7f050021
 int id useLogo 0x7f050003
-int id wedbutt 0x7f05003e
+int id wedbutt 0x7f05003d
 int id withText 0x7f05000c
+int id year 0x7f05005c
 int integer abc_max_action_buttons 0x7f090000
 int layout abc_action_bar_decor 0x7f030000
 int layout abc_action_bar_decor_include 0x7f030001

@@ -1118,7 +1118,7 @@ containing a value of this type.
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
-        public static final int fributt=0x7f05003d;
+        public static final int fributt=0x7f05003c;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
@@ -1135,7 +1135,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
-        public static final int satbutt=0x7f05003f;
+        public static final int satbutt=0x7f05003e;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
         public static final int search_button=0x7f050033;
@@ -1151,9 +1151,9 @@ containing a value of this type.
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
         public static final int split_action_bar=0x7f05001e;
-        public static final int subbutt=0x7f05003c;
+        public static final int subbutt=0x7f050040;
         public static final int submit_area=0x7f050039;
-        public static final int sunbutt=0x7f050040;
+        public static final int sunbutt=0x7f05003f;
         public static final int tabMode=0x7f050002;
         public static final int thubutt=0x7f050043;
         public static final int title=0x7f05002b;
@@ -1161,8 +1161,9 @@ containing a value of this type.
         public static final int tuebutt=0x7f050042;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
-        public static final int wedbutt=0x7f05003e;
+        public static final int wedbutt=0x7f05003d;
         public static final int withText=0x7f05000c;
+        public static final int year=0x7f05005c;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
